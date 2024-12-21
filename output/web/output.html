@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Four in a Row</title>
+    <script src="https://cdn.jsdelivr.net/npm/brython@3/brython.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/brython@3/brython_stdlib.js"></script>
+</head>
+<body onload="brython()">
+<div id="output" style="white-space: pre-wrap;"></div>
+<input id="input">
+<button id="button_ok">Ok</button>
+<script type="text/python">
+from browser import document, aio
+
+def print(text='', end='\\n'):
+    document['output'] <= text if text else end
+    document['output'] <= end
+
+{script}
+
+async def prompt(text=''):
+    if text:
+        print(text, '')
+    await aio.event(document['button_ok'], "click")
+    v = document['input'].value
+    if v:
+        print(v)
+    document['input'].value = ""
+    return v
+
+aio.run(main())
+</script>
+</body>
+</html>
