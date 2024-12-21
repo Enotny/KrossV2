@@ -12,7 +12,7 @@
 ```bash
 make windows
 ```
-![] (https://github.com/Enotny/KrossV2/blob/master/gifs/windows.gif)
+![](https://github.com/Enotny/KrossV2/blob/master/gifs/windows.gif)
 
 ## Linux
 
@@ -20,7 +20,7 @@ make windows
 ```bash
 make linux
 ```
-![] (https://github.com/Enotny/KrossV2/blob/master/gifs/linux.gif)
+![](https://github.com/Enotny/KrossV2/blob/master/gifs/linux.gif)
 
 ## Web
 
@@ -28,7 +28,7 @@ make linux
 ```bash
 make web
 ```
-![] (https://github.com/Enotny/KrossV2/blob/master/gifs/web.gif)
+![](https://github.com/Enotny/KrossV2/blob/master/gifs/web.gif)
 
 ## Тестирование
 
