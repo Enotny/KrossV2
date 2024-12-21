@@ -11,4 +11,4 @@
 **Команда:**
 ```bash
 make windows
-bash```
+exit
