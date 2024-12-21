@@ -11,15 +11,4 @@
 **Команда:**
 ```bash
 make windows
-
-### Linux
-
-**Команда:**
 ```bash
-make linux
-
-### Web
-
-**Команда:**
-```bash
-make web
